@@ -40,3 +40,7 @@ input[type="submit"] {
   color: #fff;
   background: rgb(212, 49, 49);
 }
+.bg-dark {
+  background: rgba(0, 0, 0, 0.616);
+  color: #fff;
+}

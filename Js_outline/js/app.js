@@ -8,12 +8,17 @@
 //single line <command/>
 /* multiline <command/> */
 // Variables
+//first_name = "jojo" //underscore convention
+//FirstName = "jojo" //pascale case //class name
+//firstName = "jojo" //camel case //method
+//First_Name = "koko" //snake case //const variable
 // var, let, const
 // var is global scope***
-// function say() {
-//     var message = 'Hi';
+// if (true) {
+//   let app = "bb";
+//   var name = "mm";
 // }
-// console.log(message); // ReferenceError
+// console.log(name);
 // global variable
 // var message = "Hello";
 // function say() {
@@ -104,6 +109,13 @@
 // console.log(colors);
 // console.log(Array.isArray(colors)); //check array
 // console.log(colors.indexOf("white")); //find Index
+//var list = ["bar", "baz", "foo", "qux"];
+// list.splice(1, 3);
+// // list.splice(2, 2);
+// // list.splice(3, 1);
+// console.log(list);
+
+
 
 // const person = {
 //   name: "bobo",
@@ -276,3 +288,30 @@
 // console.log(p1.getBirthYear());
 // console.log(p1.getProfile());
 // console.log(window);
+
+
+// operator (+-*/%)
+//let x = 20;
+//let y = 2;
+// let z = x + y;
+// let z = x % y;
+// x++;
+// x = ++x;
+
+//console.log(x);
+//conditional operator( ==,===,>,<,>=,<= ,!=)
+
+//Add multiple classes to a <div> element:
+//document.getElementById("myDIV").classList.add("mystyle", "anotherClass", "thirdClass");
+
+//Remove a class from a <div> element:
+//document.getElementById("myDIV").classList.remove("mystyle");
+
+//Remove multiple classes from a <div> element:
+//document.getElementById("myDIV").classList.remove("mystyle", "anotherClass", "thirdClass");
+
+//Toggle between two classes for a <div> element:
+//document.getElementById("myDIV").classList.toggle("newClassName");
+
+Find out if an element has a "mystyle" class:
+//document.getElementById("myDIV").classList.contains("mystyle");
